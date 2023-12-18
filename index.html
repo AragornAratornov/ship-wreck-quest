@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ship wreck: quest</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div id="crt"> 
+        <div class="scanline"></div>
+    </div>
+    <div id="plate"> 
+        <p id="info">>ДАТА: НЕИЗВЕСТНО<br>>ВРЕМЯ: НЕИЗВЕСТНО<br><br>>ОТЧЕТ: КОРАБЛЬ МУСОРОСБОРЩИКОВ ПОТЕРПЕЛ КРУШЕНИЕ НА ОБЪЕКТЕ GJ-1061. ДАТА ПОСЛЕДНЕГО СИГНАЛА: **/**/****. КОЛИЧЕСТВО ЭКИПАЖА: 5. ПРИБЛИЗИТЕЛЬНОЕ МЕСТО КРУШЕНИЕ: СТАНЦИЯ N7. ВЫСЛАНО ПОДКРЕПЛЕНИЕ.</p>
+        <p id="choose" onclick="next()">>ПРОДОЛЖИТЬ</p>
+        <p id="act1" onclick="ch1()"></p>
+        <p id="act2" onclick="ch2()"></p>
+        <p id="act3" onclick="ch3()"></p>
+    </div>
+    <div id="start" onclick="showSmallText()">
+        <h1 id="menu">НАЧАТЬ</h1>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
