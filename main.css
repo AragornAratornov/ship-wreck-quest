@@ -14,6 +14,7 @@ p, h1 {
     animation: flashing 5s infinite;
 }
 #start{
+    cursor: pointer;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -33,6 +34,9 @@ p, h1 {
     color:chartreuse; 
     font-size:300%;
     text-align:left;
+}
+#act1, #act2, #act3, #choose{
+    cursor: pointer;
 }
 @media (orientation: portrait) {
     #plate{

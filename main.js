@@ -70,6 +70,7 @@ var act3 = document.getElementById("act3");
 var info = document.getElementById("info");
 var k = reps1;
 function next(){
+  choose.cursor = "auto";
   choose.innerText=">ДАЛЬНЕЙШИЕ ДЕЙСТВИЯ:";
   choose.removeAttribute('onclick');
   act1.innerText=choses1[0];
@@ -205,10 +206,6 @@ function ch2(){
   }
   if(storyline==1){
     act1.style.display = "block";
-    act1.style.display = "block";
-    act3.style.display = "block";
-  }
-  if(storyline==1){
     act1.innerText=chose3[0];
     act2.innerText=chose3[1];
     act3.style.display = "none";
