@@ -205,10 +205,6 @@ function ch2(){
   }
   if(storyline==1){
     act1.style.display = "block";
-    act1.style.display = "block";
-    act3.style.display = "block";
-  }
-  if(storyline==1){
     act1.innerText=chose3[0];
     act2.innerText=chose3[1];
     act3.style.display = "none";
