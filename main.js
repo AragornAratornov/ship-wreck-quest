@@ -70,7 +70,7 @@ var act3 = document.getElementById("act3");
 var info = document.getElementById("info");
 var k = reps1;
 function next(){
-  choose.cursor = "auto";
+  choose.cursor = "text";
   choose.innerText=">ДАЛЬНЕЙШИЕ ДЕЙСТВИЯ:";
   choose.removeAttribute('onclick');
   act1.innerText=choses1[0];
